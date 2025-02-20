@@ -1,0 +1,6 @@
+def missing_char(str, n):
+  x = list(str)
+  y = len(x)
+  x.remove(x[n])
+  result = ''.join(x)
+  return result
